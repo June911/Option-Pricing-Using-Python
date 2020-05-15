@@ -15,11 +15,12 @@ The value of a derivate, in the vast majority of situations, has no analytical s
     create a time-space-discreted grid, approximation of Greeks, boudary conditions 
     for American option, systematically take the maximum between the exercise value and the continuation value 
     - Implicit Finite Differences Methods(IFDM)
-    - Crank-Nicolson algorithm 
+    - Crank-Nicolson algorithm  -- combination of EFDM and IFDM 
+    - 2-dimensional example 
   curse of dimensionality ==> difficut to implement as the number of state variables increases 
   
   - Monte Carlo Simulation 
-  simulating paths for the price of UA
+  simulating paths for the price of UA ## euler 
   prons:
   flexible, the difficult does not increase with dimension
   cons:
