@@ -55,7 +55,3 @@ Pricing exotic option
 - Bermudian options 
 
 Underlying asset dynamics 
-
-
-
-Finite 
